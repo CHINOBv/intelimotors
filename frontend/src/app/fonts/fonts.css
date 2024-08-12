@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Gilroy';
+  src:
+    url('./gilroy/Gilroy-Regular.ttf') format('truetype'),
+    url('./gilroy/Gilroy-Medium.ttf') format('truetype'),
+    url('./gilroy/Gilroy-SemiBold.ttf') format('truetype'),
+    url('./gilroy/Gilroy-Bold.ttf') format('truetype'),
+    url('./gilroy/Gilroy-Black.ttf') format('truetype'),
+    url('./gilroy/Gilroy-ExtraBold.ttf') format('truetype'),
+    url('./gilroy/Gilroy-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:
+    url('./Poppins/Poppins-Regular.ttf') format('truetype'),
+    url('./Poppins/Poppins-Medium.ttf') format('truetype'),
+    url('./Poppins/Poppins-SemiBold.ttf') format('truetype'),
+    url('./Poppins/Poppins-Bold.ttf') format('truetype'),
+    url('./Poppins/Poppins-Black.ttf') format('truetype'),
+    url('./Poppins/Poppins-ExtraBold.ttf') format('truetype'),
+    url('./Poppins/Poppins-ExtraLight.ttf') format('truetype'),
+    url('./Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoppinsMed';
+  src: url('./Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoppinsSem';
+  src: url('./Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('./Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
