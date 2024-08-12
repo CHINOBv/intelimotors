@@ -8,7 +8,7 @@ import PowerSettingsNewIcon from '@mui/icons-material/PowerSettingsNew';
 const SignOutButton = () => {
     return (
         <Button
-            className='absolute bottom-2 left-2'
+            className='xs:absolute bottom-2 left-2'
             variant="outlined"
             color="error"
             onClick={() => signOut()}>
