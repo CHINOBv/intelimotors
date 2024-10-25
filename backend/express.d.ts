@@ -1,4 +1,4 @@
-import { User } from './src/auth/domain/User';
+import { User } from './src/modules/auth/domain/User';
 
 declare module 'express-serve-static-core' {
     interface Request {

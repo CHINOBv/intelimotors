@@ -1,16 +1,18 @@
 import { Router } from 'express';
 import { container } from 'tsyringe';
 import { AdService } from '../application/AdService';
-import { authMiddleware, AuthenticatedRequest } from '../../middleware/authMiddleware';
+import { authMiddleware, AuthenticatedRequest } from '../../../middleware/authMiddleware';
 import { plainToInstance } from 'class-transformer';
 import { Ad } from '../domain/entity/Ad';
 import { validateOrReject } from 'class-validator';
 import { CreateAdDto } from '../dto/CreateAdDto';
-import upload from '../../config/multerConfig';
+import upload from '../../../config/multerConfig';
 import {AdDetails} from "../dto/AdDetails";
 
 const router = Router();
 const adService = container.resolve(AdService);
+
+// ! /ads/publicar
 
 router.post('/publicar', authMiddleware, upload.array('images', 3), async (req: AuthenticatedRequest, res) => {
     try {

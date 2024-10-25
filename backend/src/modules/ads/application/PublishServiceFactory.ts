@@ -1,7 +1,7 @@
 import { SeminuevosPublishService } from './publishers/SeminuevosPublishService';
 import { MercadoLibrePublishService } from './publishers/MercadoLibrePublishService';
 import { IPublishService } from './IPublishService';
-import env from "../../config/env";
+import env from "../../../config/env";
 
 export class PublishServiceFactory {
     static createService(site: string): IPublishService {

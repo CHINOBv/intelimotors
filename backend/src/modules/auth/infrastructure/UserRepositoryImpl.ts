@@ -2,7 +2,7 @@ import { injectable } from 'tsyringe';
 import { Repository } from 'typeorm';
 import { UserRepository } from '../domain/UserRepository';
 import { User } from '../domain/User';
-import { AppDataSource } from '../../config/dataSource';
+import { AppDataSource } from '../../../config/dataSource';
 
 @injectable()
 export class UserRepositoryImpl implements UserRepository {

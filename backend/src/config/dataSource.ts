@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
-import { User } from '../auth/domain/User';
-import { Ad } from '../ads/domain/entity/Ad';
-import {Image} from "../ads/domain/entity/Image";
+import { User } from '../modules/auth/domain/User';
+import { Ad } from '../modules/ads/domain/entity/Ad';
+import {Image} from "../modules/ads/domain/entity/Image";
 
 export const AppDataSource = new DataSource({
     type: 'sqlite',

@@ -2,7 +2,7 @@ import { injectable } from 'tsyringe';
 import { Repository } from 'typeorm';
 import { AdRepository } from '../domain/AdRepository';
 import { Ad } from '../domain/entity/Ad';
-import { AppDataSource } from '../../config/dataSource';
+import { AppDataSource } from '../../../config/dataSource';
 
 @injectable()
 export class AdRepositoryImpl implements AdRepository {

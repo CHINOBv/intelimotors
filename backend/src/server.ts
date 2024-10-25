@@ -14,8 +14,8 @@ const startServer = async () => {
     try {
         await initializeDependencies();
 
-        const {authRouter} = await import('./auth/presentation/authRouter');
-        const {adsRouter} = await import('./ads/presentation/adsRouter');
+        const {authRouter} = await import('./modules/auth/presentation/authRouter');
+        const {adsRouter} = await import('./modules/ads/presentation/adsRouter');
 
         app.use(cors({
             origin: '*',

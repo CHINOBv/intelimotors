@@ -1,7 +1,7 @@
 import {Router} from 'express';
 import {container} from 'tsyringe';
 import {AuthService} from '../application/AuthService';
-import {authMiddleware} from '../../middleware/authMiddleware';
+import {authMiddleware} from '../../../middleware/authMiddleware';
 import {plainToClass, plainToInstance} from 'class-transformer';
 import {User} from '../domain/User';
 import {validateOrReject} from 'class-validator';
